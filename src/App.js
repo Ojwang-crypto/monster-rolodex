@@ -12,7 +12,6 @@ class App extends Component {
     };
     console.log('component');
   }
-
   componentDidMount(){
     console.log('Didmount');
     fetch('https://jsonplaceholder.typicode.com/users')
@@ -42,6 +41,7 @@ class App extends Component {
 
     return (
       <div className="App">
+      <div className='app-title'> Monster Rolodex</div>
       <SearchBox onChangeHandler= {this.onSearchChange} placeholder='Search Box'/>
       <CardList monsters={filteredMonsters}/>
       

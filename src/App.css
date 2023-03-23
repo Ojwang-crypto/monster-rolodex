@@ -11,3 +11,10 @@ body {
   );
   text-align: center;
 }
+.app-title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: aqua;
+  font-family: 'fasthand';
+}
